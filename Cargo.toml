@@ -1,0 +1,16 @@
+[package]
+name = "vivern"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = {version = "0.33.0", features = ["persistence"]}
+egui_extras = {version = "0.33.0", features = ["default", "all_loaders", "file", "image"]}
+image = { version = "0.25.10", features = ["png", "jpeg"] }
+open = "5.3.3"
+path-absolutize = "3.1.1"
+pathdiff = "0.2.3"
+rfd = "0.17.2"
+serde = {version = "1.0.228", features = ["derive"]}
+serde_json = "1.0.149"
+simple-server = "=0.4.0"
